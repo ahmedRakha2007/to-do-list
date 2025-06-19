@@ -1,0 +1,23 @@
+.breadCrumb-container{
+    margin: 30px 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    width: 330px;
+}
+.all-section, .done-section, .notDone-section{
+    width: 110px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breadCrumb-container .all-section{
+    border-radius: 20px 0px 0px 20px;
+}
+.breadCrumb-container .notDone-section{
+    border-radius: 0px 20px 20px 0px;
+}

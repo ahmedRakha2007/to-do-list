@@ -1,0 +1,26 @@
+.todo-container{
+    margin-top: 40px;
+    background-color: #333333;
+    height: fit-content;
+    border-radius: 30px;
+    padding: 5px 15px ;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-icon , .edit-icon, .delete-icon{
+    background-color: #111111;
+    border-radius: 500px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
